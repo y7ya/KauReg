@@ -2,7 +2,6 @@
 > browser extension that helps KAU students in courses registration.
 
 
-ToDo:
-* On/off button 
+ToDo: 
 * link with BetterKAU
  
