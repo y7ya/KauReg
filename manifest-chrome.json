@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "KauReg",
+  "version": "1.0",
+  "description": "browser extension that helps KAU students in courses registration.",
+  "action":{
+    "default_title":"KauReg",
+    "default_popup":"popup/main.html",
+    "default_icon": {
+      "48": "icons/48x48.png"
+    }
+  },
+  "content_scripts": [
+    {
+        "matches": ["https://*.betterkau.com/*"],
+        "js": ["scripts/betterkau.js"]
+    },
+    {
+      "matches": ["https://odusplus-ss.kau.edu.sa/PROD/xwskfreg.P_AltPin","https://odusplus-ss.kau.edu.sa/PROD/xwckcoms.P_Regs"],
+      "js": ["scripts/ouds.js"]
+    }
+],
+  "permissions":[
+    "storage",
+    "tabs"
+  ]
+}

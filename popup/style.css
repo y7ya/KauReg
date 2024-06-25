@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: "Almarai", sans-serif;
+}
+
+a{
+    color: #fff;
+}
+
+a:visited{
+    color: #fff;
+}
+
+.container {
+    width: 300px;
+    min-height: 100px;
+    background-color: #424549;
+}
+
+button {
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header {
+     display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    background-color: #282b30;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.header .title{
+    font-size: 18px;
+    font-weight: bold;
+    display: block ;
+    padding: 5px;
+}
+
+.header .action {
+    display: block;
+    padding: 10px;
+}
+
+.link-logo{
+    display:inline;
+    height: 25px;
+}
+
+.courses {
+    direction: rtl;
+    min-height: 40px;
+}
+
+.course{
+    width: 100%;
+    margin-top: 8px;
+    border-bottom: solid 1px black;
+    padding-bottom: 8px;
+}
+
+.course_title{
+    display: block;
+    text-align: center;
+    direction: ltr;
+    margin: 0;
+}
+
+.course_number{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    background-color: #6d8a74;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.footer .copyright{
+    display: inline;
+    width: 75%;
+    font-size: 15px;
+}
+
+.footer .icons img {
+    margin: auto;
+    height: 22px;
+    padding-right: 5px;
+}
+
+.error {
+    width: 100%;
+    text-align: center;
+}
+
+.error .title{
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.error .message{
+    font-size: 12px;
+    margin: 5px;
+}
